@@ -1,4 +1,4 @@
-# DotMattWebUtils
+# DotMattWebUtils - Bootstrap 3 Helpers for Razor views.
 HTML Helpers for Razor view input fields styled in Bootstrap 3 markup.
 
 **Text input field example:**
