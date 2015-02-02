@@ -1,7 +1,19 @@
 # DotMattWebUtils - Bootstrap 3 Helpers for Razor views.
 HTML Helpers for Razor view input fields styled in Bootstrap 3 markup.
 
-[Install from Nuget package](https://www.nuget.org/packages/DotMattWebUtils/)
+**Installation**
+
+  [Install from Nuget package](https://www.nuget.org/packages/DotMattWebUtils/)
+
+**Configuration**
+
+Add this namespace reference to the web.config file in your Views folder of your MVC project.
+```html
+   <namespaces>
+     ...
+     <add namespace="DotMattLibrary.Web" />
+  </namespaces>
+```
 
 **Text input field example:**
 
@@ -13,12 +25,11 @@ HTML Helpers for Razor view input fields styled in Bootstrap 3 markup.
 Resulting markup:
 ```html
 <div class="col-md-3">
-  <div class="form-group">
-    <label for="Firm_FirmNumber">Firm No.</label>
-    <input class="form-control" data-val="true" data-val-maxlength="The field FirmNumber must be a string or array type with a maximum length of &#39;5&#39;." data-val-maxlength-max="5" data-val-required="The FirmNumber field is required." id="Firm_FirmNumber" name="Firm.FirmNumber" type="text" value="001" />
-  </div>
-</div>
-```
+    <div class="form-group">
+        <label for="Firm_AccountNo">Account No.</label>
+        <input class="form-control" data-val="true" data-val-maxlength="The field AccountNo must be a string or array type with a maximum length of &#39;5&#39;." data-val-maxlength-max="5" data-val-required="The AccountNo field is required." id="Firm_AccountNo" name="Firm.AccountNo" type="text" value="001" />
+    </div>
+</div>```
 
 **Select list (Dropdown list) example:**
 
