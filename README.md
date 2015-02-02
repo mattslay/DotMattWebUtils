@@ -8,7 +8,7 @@ HTML Helpers for Razor view input fields styled in Bootstrap 3 markup.
 ```
   @Html.BootstrapTextBoxFor(m => m.Firm.AccountNo, "Account No.").DivWrapper("col-md-3")
 ```  
-> The first parameter is the model property, second parameter is the lable caption. If you omit the label caption, the field name will be used as the default label caption.
+> The first parameter is the model property, second parameter is the label caption. If you omit the label caption, the field name will be used as the default label caption.
 
 Resulting markup:
 ```html
@@ -25,7 +25,7 @@ Resulting markup:
 ```
 @Html.BootstrapDropDownListFor(m => m.Firm.YearEnd, Model.MonthList, "Year End").DivWrapper("col-md-3")
 ```
-> The first parameter is the model property, second parameter is the SelectList options, and the third parameter is the lable caption. If you omit the label caption, the field name will be used as the default label caption.
+> The first parameter is the model property, second parameter is the SelectList options, and the third parameter is the label caption. If you omit the label caption, the field name will be used as the default label caption.
 
 Resulting markup:
 ```html
