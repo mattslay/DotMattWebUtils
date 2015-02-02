@@ -7,7 +7,7 @@ HTML Helpers for Razor view input fields styled in Bootstrap 3 markup.
 
 **Configuration**
 
-Add this namespace reference to the web.config file in your Views folder of your MVC project.
+Add this namespace reference to the web.config file in the Views folder of your MVC project.
 ```html
    <namespaces>
      ...
