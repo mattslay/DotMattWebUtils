@@ -22,6 +22,8 @@ Add this namespace reference to the web.config file in the Views folder of your 
 ```  
 > The first parameter is the model property, second parameter is the label caption. If you omit the label caption, the field name will be used as the default label caption.
 
+> Notice how you can use the DivWrapper() extension method at the end to surround the entire control set in a div with any class(es) that you need, such as the Bootstrap column classes or as well as any additional classes that you want to include.
+
 Resulting markup:
 ```html
 <div class="col-md-3">
@@ -29,7 +31,8 @@ Resulting markup:
         <label for="Firm_AccountNo">Account No.</label>
         <input class="form-control" data-val="true" data-val-maxlength="The field AccountNo must be a string or array type with a maximum length of &#39;5&#39;." data-val-maxlength-max="5" data-val-required="The AccountNo field is required." id="Firm_AccountNo" name="Firm.AccountNo" type="text" value="001" />
     </div>
-</div>```
+</div>
+```
 
 **Select list (Dropdown list) example:**
 
@@ -37,6 +40,9 @@ Resulting markup:
 @Html.BootstrapDropDownListFor(m => m.Firm.YearEnd, Model.MonthList, "Year End").DivWrapper("col-md-3")
 ```
 > The first parameter is the model property, second parameter is the SelectList options, and the third parameter is the label caption. If you omit the label caption, the field name will be used as the default label caption.
+
+> Notice how you can use the DivWrapper() extension method at the end to surround the entire control set in a div with any class(es) that you need, such as the Bootstrap column classes or as well as any additional classes that you want to include.
+
 
 Resulting markup:
 ```html
