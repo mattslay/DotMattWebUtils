@@ -16,7 +16,7 @@ Resulting markup:
     <input class="form-control" data-val="true" data-val-maxlength="The field FirmNumber must be a string or array type with a maximum length of &#39;5&#39;." data-val-maxlength-max="5" data-val-required="The FirmNumber field is required." id="Firm_FirmNumber" name="Firm.FirmNumber" type="text" value="001" />
   </div>
 </div>
-'''
+```
 
 **Select list (Dropdown list) example:**
 
